@@ -39,7 +39,7 @@ sepsis_fit<-FlexAFT(Data=sepsis,Var=Vars,
                     nknot.bh=2,degree.bh=3,
                     Time.Obs="time.obs",Delta="event",knot_time="eventtime",ndivision=600)
 sink()
-save(sepsis_fit,file="sepsis_fit.rda")
+save(sepsis_fit,file="sepsis_flexaft.rda")
 
 cov.val<-rep(NA,7)
 for (i in 1:5){
