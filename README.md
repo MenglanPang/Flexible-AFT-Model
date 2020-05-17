@@ -17,7 +17,7 @@ The code has been written using R with the following version information:<br/>
   
 #### Code to implement the flexible AFT model:
 ##### `FlexAFT.R`
-This program includes all necessary functions to provide estimates of
+This program includes all necessary functions to provide estimates of:
 - Hazard function and survival curve conditional on an arbitrary covariate pattern
 - TD effects
 - NL effects
