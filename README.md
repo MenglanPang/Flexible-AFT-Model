@@ -20,7 +20,7 @@ The code has been written using R with the following version information:<br/>
 This program includes all necessary functions to provide estimates of:
 - TD effects
 - NL effects
-- Time ratio when the TD is not present
+- Time ratio when TD is not present
 - Hazard function and survival curve conditional on an arbitrary covariate pattern with their relevant TD and NL effects
 
 
