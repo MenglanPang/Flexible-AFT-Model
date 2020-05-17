@@ -22,6 +22,8 @@ This program includes all necessary functions to provide estimates of:
 - NL effects
 - Time ratio when the TD is not present
 - Hazard function and survival curve conditional on an arbitrary covariate pattern with their relevant TD and NL effects
+
+
 The program is called by the program `Example.R`. 
 
 #### Code to run the flexible AFT model:
