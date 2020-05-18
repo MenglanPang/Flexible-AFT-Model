@@ -28,8 +28,10 @@ Vars<-c("immunodep","knauss","urinaire","cirrhose","infection","age","sofa")
 #degree.bh: degree of the splines for modeling the baseline hazard
 #Time.Obs: name of the observed time variable
 #Delta: name of the event indicator
-#knot_time: "eventtime" or "alltime"; whether the knots are placed based on the quantiles of the uncensored event time or the overal observed (event or censored) time 
+#knot_time: "eventtime" or "alltime"; whether the knots are placed based on the quantiles of the uncensored event time or the overal observed (event or censoring) time 
 #tol: convergece criter evaluating two consecutive log-likelihood;default is 1^-5
+#ndivision: the number of intervals defining the granularity of the numerical computation of integrals; 
+##default is "maxtime" such that the number of interval=100*floor(Observed event/censoring time) 
 
 sink("septicshock_flexible_AFT.txt")
 sepsis_fit<-FlexAFT(Data=sepsis,Var=Vars,
@@ -37,7 +39,7 @@ sepsis_fit<-FlexAFT(Data=sepsis,Var=Vars,
                     nknot.NL=c(rep(NA,5),rep(1,2)),nknot.TD=c(NA,NA,NA,rep(1,4)),
                     degree.NL=c(rep(NA,5),rep(2,2)),degree.TD=c(NA,NA,NA,rep(2,4)),
                     nknot.bh=2,degree.bh=3,
-                    Time.Obs="time.obs",Delta="event",knot_time="eventtime",ndivision=600)
+                    Time.Obs="time.obs",Delta="event",knot_time="eventtime",tol=1e-5,ndivision=600)
 sink()
 save(sepsis_fit,file="sepsis_flexaft.rda")
 
