@@ -1,5 +1,5 @@
 # Flexible AFT Model
-R code for implementing the method in article “Pang M, Platt R, Schuster T, Abrahamowicz M. Flexible Modeling of Time-dependent and Non-linear covariate effects in Accelerated FailureTime model. Under review at *Statistical Method in Medical Research* 2020".
+R code for implementing the method in article “Pang M, Platt R, Schuster T, Abrahamowicz M. Flexible Modeling of Time-dependent and Non-linear covariate effects in Accelerated Failure Time model. Under review at *Statistical Method in Medical Research* 2020".
 
 ## Content
 ### Description
@@ -20,7 +20,7 @@ The code has been written using R with the following version information:<br/>
 This program includes all necessary functions to provide estimates of:
 - TD effects
 - NL effects
-- Time ratio when TD is not present
+- Time ratio when TD effect is not present
 - Hazard function and survival curve conditional on an arbitrary covariate pattern with their relevant TD and NL effects
 
 
@@ -28,6 +28,6 @@ The program is called by the program `Example.R`.
 
 #### Code to run the flexible AFT model:
 ##### `Example.R`
-The program read the data in `sepsis.csv`, and generates the results save in  `sepsis_flexaft.rda`
+The program reads the data in `sepsis.csv`, and generates the results save in  `sepsis_flexaft.rda`
  
 For questions or comments about the code please contact Menglan Pang (menglan.pang at mail.mcgill.ca).
