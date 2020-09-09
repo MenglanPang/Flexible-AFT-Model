@@ -27,7 +27,7 @@ This program includes all necessary functions to provide estimates of:
 The program is called by the program `Example.R`. 
 
 #### Code to run the flexible AFT model:
-##### `Example.R`
-The program reads the data in `sepsis.csv`, and generates the results save in  `sepsis_flexaft.rda`
+##### `Example_lungcancer.R`
+The program uses the lung cancer dataset that is available in R 'survival' package, and generates the results save in `lung_flexaft.RData`
  
 For questions or comments about the code please contact Menglan Pang (menglan.pang at mail.mcgill.ca).
