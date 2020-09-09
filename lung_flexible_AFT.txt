@@ -1,0 +1,225 @@
+Iteration= 1 
+gamma= -0.9425956 -0.9425956 -71.56916 -278.0752 -8.368656 -93.40951 
+gamma convergence succeeded 
+gamma_likelihood= -1698.154 
+time_gamma 145.643 
+beta convergence succeeded 
+beta_likelihood= -1698.154 
+beta= -0.4807016 -0.4807016 -0.4807016 -0.4807016 0.0001936808 0.0001936808 0.0001936808 0.0001936808 
+time_beta 6.88 
+alpha convergence succeeded 
+alpha_likelihood= -1547.627 
+alpha= 40.39936 57.12843 73.79636 77.9887 -23.99999 -7.999452 38.00032 68.00005 
+time_alpha 13.613 
+Loglik= -1547.627 
+diff= 11546.63 
+Iteration= 2 
+gamma= -0.9425956 -0.9425956 -70.81149 -113.6043 -65.09548 -76.15027 
+gamma convergence succeeded 
+gamma_likelihood= -1131.735 
+time_gamma 21.661 
+beta convergence succeeded 
+beta_likelihood= -1102.647 
+beta= -0.4842245 -0.4804594 -0.4790193 -0.4801486 -0.08243684 0.04678856 0.0462261 0.0128149 
+time_beta 53.862 
+alpha convergence succeeded 
+alpha_likelihood= -218.9119 
+alpha= 70.3252 70.28654 69.05557 76.34259 -17.93437 28.2434 59.45658 70.76889 
+time_alpha 53.115 
+Loglik= -218.9119 
+diff= 1328.715 
+Iteration= 3 
+gamma= -0.9425956 -0.9425956 -70.95417 -97.51543 -70.30835 -75.22288 
+gamma convergence succeeded 
+gamma_likelihood= -210.9381 
+time_gamma 11.133 
+beta convergence succeeded 
+beta_likelihood= -199.2921 
+beta= -0.4842024 -0.4811329 -0.4788096 -0.4798889 -0.03843266 0.02397253 0.07296234 0.03486039 
+time_beta 21.114 
+alpha convergence succeeded 
+alpha_likelihood= -198.7497 
+alpha= 70.31181 70.41745 69.14236 76.24494 -17.9333 28.24754 59.45784 70.76868 
+time_alpha 31.369 
+Loglik= -198.7497 
+diff= 20.16228 
+Iteration= 4 
+gamma= -0.9425956 -0.9425956 -71.0622 -90.32693 -71.57693 -74.21202 
+gamma convergence succeeded 
+gamma_likelihood= -195.1783 
+time_gamma 8.934 
+beta convergence succeeded 
+beta_likelihood= -195.1224 
+beta= -0.4842038 -0.4811492 -0.4788112 -0.4798851 -0.03831782 0.02298399 0.07294354 0.03517479 
+time_beta 14.107 
+alpha convergence succeeded 
+alpha_likelihood= -193.4442 
+alpha= 70.26489 70.82582 69.3434 75.82984 -17.92995 28.25465 59.45634 70.76677 
+time_alpha 9.802 
+Loglik= -193.4442 
+diff= 5.305443 
+Iteration= 5 
+gamma= -0.9425956 -0.9425956 -71.19206 -84.44202 -73.36356 -73.58735 
+gamma convergence succeeded 
+gamma_likelihood= -188.987 
+time_gamma 8.212 
+beta convergence succeeded 
+beta_likelihood= -188.7046 
+beta= -0.4842075 -0.4812473 -0.4788084 -0.4798508 -0.03496514 0.02013216 0.07513541 0.03834984 
+time_beta 58.085 
+alpha convergence succeeded 
+alpha_likelihood= -188.6888 
+alpha= 70.22411 71.15445 69.56155 75.50352 -17.92695 28.26057 59.45472 70.76529 
+time_alpha 13.138 
+Loglik= -188.6888 
+diff= 4.755382 
+Iteration= 6 
+gamma= -0.9425956 -0.9425956 -71.33207 -80.71972 -74.42346 -73.13048 
+gamma convergence succeeded 
+gamma_likelihood= -185.123 
+time_gamma 7.641 
+beta convergence succeeded 
+beta_likelihood= -184.7035 
+beta= -0.4842127 -0.4813636 -0.4788129 -0.4798115 -0.03052587 0.01708534 0.0775702 0.04221042 
+time_beta 39.244 
+alpha convergence succeeded 
+alpha_likelihood= -184.2601 
+alpha= 70.18693 71.27325 69.69188 75.34176 -17.9214 28.28596 59.46988 70.76852 
+time_alpha 34.15 
+Loglik= -184.2601 
+diff= 4.428752 
+Iteration= 7 
+gamma= -0.9425956 -0.9425956 -71.39505 -79.22118 -74.56484 -72.95361 
+gamma convergence succeeded 
+gamma_likelihood= -183.2673 
+time_gamma 11.111 
+beta convergence succeeded 
+beta_likelihood= -183.0315 
+beta= -0.4842189 -0.4814516 -0.4788214 -0.4797825 -0.02729978 0.01490312 0.07915066 0.04516324 
+time_beta 22.478 
+alpha convergence succeeded 
+alpha_likelihood= -182.8382 
+alpha= 70.16467 71.52296 69.87775 75.05505 -17.91877 28.29133 59.46839 70.76729 
+time_alpha 13.676 
+Loglik= -182.8382 
+diff= 1.421873 
+Iteration= 8 
+gamma= -0.9425956 -0.9425956 -71.50399 -77.50495 -74.42218 -72.78096 
+gamma convergence succeeded 
+gamma_likelihood= -180.5909 
+time_gamma 7.433 
+beta convergence succeeded 
+beta_likelihood= -180.1846 
+beta= -0.4842411 -0.4816284 -0.4788473 -0.4797245 -0.02134058 0.01144136 0.08244123 0.05133486 
+time_beta 29.282 
+alpha convergence succeeded 
+alpha_likelihood= -179.5214 
+alpha= 70.14925 71.73061 70.05703 74.78786 -17.91625 28.29821 59.46792 70.76608 
+time_alpha 11.048 
+Loglik= -179.5214 
+diff= 3.316779 
+Iteration= 9 
+gamma= -0.9425956 -0.9425956 -71.62059 -76.08053 -75.18834 -72.5098 
+gamma convergence succeeded 
+gamma_likelihood= -177.777 
+time_gamma 7.341 
+beta convergence succeeded 
+beta_likelihood= -177.6219 
+beta= -0.484255 -0.4817116 -0.4788691 -0.4797003 -0.01884432 0.009805582 0.08315528 0.05394005 
+time_beta 16.678 
+alpha convergence succeeded 
+alpha_likelihood= -176.0659 
+alpha= 70.14555 71.47244 70.8394 72.71208 -17.68554 28.70721 59.25341 70.45827 
+time_alpha 13.558 
+Loglik= -176.0659 
+diff= 3.4555 
+Iteration= 10 
+gamma= -0.9425956 -0.9425956 -71.65375 -76.16353 -73.12347 -72.48807 
+gamma convergence succeeded 
+gamma_likelihood= -174.9949 
+time_gamma 7.978 
+beta convergence succeeded 
+beta_likelihood= -173.3133 
+beta= -0.484413 -0.4822215 -0.4789744 -0.4795237 -0.002295279 0.004344242 0.08122629 0.06551817 
+time_beta 30.333 
+alpha convergence succeeded 
+alpha_likelihood= -173.3122 
+alpha= 70.14778 71.4741 70.84573 72.7132 -17.68507 28.70914 59.25329 70.45753 
+time_alpha 9.815 
+Loglik= -173.3122 
+diff= 2.753758 
+Iteration= 11 
+gamma= -0.9425956 -0.9425956 -71.70417 -75.37025 -74.87389 -71.80431 
+gamma convergence succeeded 
+gamma_likelihood= -172.7881 
+time_gamma 5.642 
+beta convergence succeeded 
+beta_likelihood= -172.7161 
+beta= -0.4844566 -0.482286 -0.4789951 -0.4794996 -0.002616753 0.004323769 0.08021266 0.06669322 
+time_beta 18.411 
+alpha convergence succeeded 
+alpha_likelihood= -172.5852 
+alpha= 70.54615 71.41514 70.91553 72.56634 -17.50924 29.23085 59.06421 70.13359 
+time_alpha 27.428 
+Loglik= -172.5852 
+diff= 0.7269611 
+Iteration= 12 
+gamma= -0.9425956 -0.9425956 -71.72826 -75.11671 -75.31481 -71.8042 
+gamma convergence succeeded 
+gamma_likelihood= -172.5215 
+time_gamma 6.525 
+beta convergence succeeded 
+beta_likelihood= -172.5154 
+beta= -0.4844679 -0.4823059 -0.4790036 -0.4794941 -0.002666595 0.004068258 0.07971917 0.06696127 
+time_beta 17.858 
+alpha convergence succeeded 
+alpha_likelihood= -172.5073 
+alpha= 70.54063 71.41754 70.93102 72.57303 -17.50865 29.23263 59.06362 70.13256 
+time_alpha 21.723 
+Loglik= -172.5073 
+diff= 0.07790582 
+Iteration= 13 
+gamma= -0.9425956 -0.9425956 -71.72896 -75.04552 -75.38816 -71.84715 
+gamma convergence succeeded 
+gamma_likelihood= -172.4986 
+time_gamma 5.051 
+beta convergence succeeded 
+beta_likelihood= -172.495 
+beta= -0.484499 -0.4823529 -0.4790221 -0.4794775 -0.002700005 0.00440164 0.07884277 0.06770849 
+time_beta 15.755 
+alpha convergence succeeded 
+alpha_likelihood= -172.495 
+alpha= 70.54063 71.41754 70.93102 72.57303 -17.50865 29.23263 59.06362 70.13256 
+time_alpha 6.242 
+Loglik= -172.495 
+diff= 0.01234654 
+Iteration= 14 
+gamma= -0.9425956 -0.9425956 -71.73366 -74.94506 -75.48772 -71.90726 
+gamma convergence succeeded 
+gamma_likelihood= -172.48 
+time_gamma 6.049 
+beta convergence succeeded 
+beta_likelihood= -172.48 
+beta= -0.484499 -0.4823529 -0.4790221 -0.4794775 -0.002700005 0.00440164 0.07884277 0.06770849 
+time_beta 6.416 
+alpha convergence succeeded 
+alpha_likelihood= -172.48 
+alpha= 70.54063 71.41754 70.93102 72.57303 -17.50865 29.23263 59.06362 70.13256 
+time_alpha 4.696 
+Loglik= -172.48 
+diff= 0.01492543 
+Iteration= 15 
+gamma= -0.9425956 -0.9425956 -71.73366 -74.94506 -75.48772 -71.90727 
+gamma convergence succeeded 
+gamma_likelihood= -172.48 
+time_gamma 1.286 
+beta convergence succeeded 
+beta_likelihood= -172.48 
+beta= -0.484499 -0.4823529 -0.4790221 -0.4794775 -0.002700005 0.00440164 0.07884277 0.06770849 
+time_beta 5.8 
+alpha convergence succeeded 
+alpha_likelihood= -172.48 
+alpha= 70.54063 71.41754 70.93102 72.57303 -17.50865 29.23263 59.06362 70.13256 
+time_alpha 3.985 
+Loglik= -172.48 
+diff= 2.894524e-09 
