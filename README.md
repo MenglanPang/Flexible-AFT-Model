@@ -1,5 +1,5 @@
 # Flexible AFT Model
-R code for implementing the method in article “Pang M, Platt R, Schuster T, Abrahamowicz M. Flexible Modeling of Time-dependent and Non-linear covariate effects in Accelerated Failure Time model. Under review at *Statistical Method in Medical Research* 2020".
+R code for implementing the method in article “Pang M, Platt R, Schuster T, Abrahamowicz M. Flexible Modeling of Time-dependent and Non-linear Covariate Effects in Accelerated Failure Time Model. Under review at *Statistical Methods in Medical Research* 2020".
 
 ## Content
 ### Description
