@@ -72,7 +72,7 @@ library(splines)
 ###TD=0 and NL=1, Bs(t)=Bst<-1; g(x)=Ax
 ###TD=0 and NL=0; Bs(t)=Bst<-X; g(x)=Ax<-1
 
-FlexAFT<-function(Data,Var,NL,TD,nknot.NL,nknot.TD,degree.NL,degree.TD,nknot.bh,degree.bh,Time.Obs,Delta,knot_time="alltime",tol=1e-5,ndivision="maxtime",init.beta="exp",init.gamma="exp",init.alpha="linear"){
+FlexAFT<-function(Data,Var,NL,TD,nknot.NL,nknot.TD,degree.NL,degree.TD,nknot.bh,degree.bh,Time.Obs,Delta,knot_time="alltime",tol=1e-5,ndivision=100,init.beta="exp",init.gamma="exp",init.alpha="linear"){
   
   ##get the initial value of gamma from an exponential AFT model (constant baseline hazard)
   if (init.gamma=="exp"){
@@ -749,14 +749,10 @@ integrat<-function(wrt){
   #it defines the granularity of the calculation
   #the larger the number is, the longer the estimation takes
   #we may take into account the the maximum of the event time and data granularity,i.e., how precise the event is being recorded
-  #by default, the number of interval=100*floor(maximum of the observed time)
+  #by default, the number of interval=100
   
-  if (ndivision=="maxtime"){
-    max_obsT<-floor(max(Tt))  
-    num_divide<-max_obsT*100
-  } else{
-    num_divide<-ndivision
-  }
+   num_divide<-ndivision
+ 
   xmatrix<-t(apply(bound,1,function(x) {seq(x[1],x[2],length=num_divide)}))
   step<-apply(xmatrix,1,function(x) (x[2]-x[1]))
   
@@ -1144,12 +1140,8 @@ SurvEst<-function(fit,time,cov,Data){
   
   bound<-cbind(0,time)
   
-  if (ndivision=="maxtime"){
-    max_obsT<-floor(max(Tt))  
-    num_divide<-max_obsT*100
-  } else{
-    num_divide<-ndivision
-  }
+  num_divide<-ndivision
+  
   
   xmatrix<-t(apply(bound,1,function(x) {seq(x[1],x[2],length=num_divide)}))
   step<-apply(xmatrix,1,function(x) (x[2]-x[1]))
