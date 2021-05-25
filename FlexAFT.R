@@ -2,7 +2,7 @@
 ### Program for flexible AFT model in time-to-event analysis
 ###
 # Author: Menglan Pang
-# Last update: July 22, 2020
+# Last update: May 24, 2021
 
 # Reference(under review at SMMR):
 # Pang M, Platt RW, Schuster T, Abrahamowicz M. 
