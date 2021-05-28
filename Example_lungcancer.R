@@ -32,7 +32,9 @@ LungDat$wt.loss[is.na(LungDat$wt.loss)] <- mean(LungDat$wt.loss, na.rm=TRUE)
 # Delta: name of the event indicator
 # knot_time: "eventtime" or "alltime" specifying whether the knots are placed based on the quantiles of the 
 #     uncensored event times or the overall observed (event or censoring) times. The default is "alltime".
-# tol: convergence criterion for log-likelihood between two consecutive iterations. The default is 1^-5
+# tol: convergence criterion for log-likelihood between two consecutive iterations. The default is 1^-5. A lager value, i.e.,relaxed convergence critria will
+#     reduce the computation time and may potentially result in less accurate estimates. Users are encouraged to first test the program by specifiying a larger convergence critria, then 
+#     gradually decrease the value and compare the resulting log-likelihood and the estimates.
 # ndivision: the number of intervals defining the granularity of the numerical computation of integrals.
 #     The range of the integral is divided by ndivision small intervals.
 #     The larger the number is, the longer the estimation takes with better accuracy.
